@@ -97,8 +97,6 @@ export default {
         align-items: center;
         justify-content: space-between;
         .bannerright__btn__text{
-            width: 180px;
-            height: 42px;
             font-family: PingFangSC-Semibold;
             font-size: 30px;
             background: linear-gradient(to bottom, #FEF8A8, #FFFEF6);
@@ -121,8 +119,6 @@ export default {
                 border: none;
             }
             .bannerright__btn__button__text{
-                width: 75px;
-                height: 36px;
                 font-family: PingFangSC-Semibold;
                 font-size: 25px;
                 color: #FF2B16;

@@ -122,8 +122,6 @@ export default {
           margin-right: 7px;
         }
         .tab__sign__box__text{
-          width: 44px;
-          height: 30px;
           font-family: PingFangSC-Medium;
           font-size: 22px;
           color: #FF5000;
@@ -197,8 +195,6 @@ export default {
           margin-right: 7px;
         }
         .tab__code__box__text{
-          width: 66px;
-          height: 30px;
           font-family: PingFangSC-Medium;
           font-size: 22px;
           color: #FF5000;

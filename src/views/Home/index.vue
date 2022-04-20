@@ -7,7 +7,8 @@
         <banner></banner>
         <banner-right></banner-right>
         <div style="clear: both"></div>
-        <feed :foods="foods"></feed>
+        <!-- <feed :foods="foods"></feed> -->
+        <waterfall :foods="foods"></waterfall>
         <van-loading class="loading" size="24px" v-if="!loaded"
           >马上逛到你心水的商品...</van-loading
         >
@@ -29,6 +30,7 @@ import Banner from "./components/Banner.vue";
 import BannerRight from "./components/BannerRight.vue";
 import cookie from "@/utils/cookie";
 import feed from "./components/FoodFeed.vue";
+import Waterfall from "./components/Waterfall.vue"
 export default {
   name: "Home",
   components: {
@@ -38,7 +40,7 @@ export default {
     Seaview,
     Banner,
     BannerRight,
-    feed,
+    Waterfall
   },
   data() {
     return {
